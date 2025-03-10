@@ -17,6 +17,23 @@ This project demonstrates how to efficiently use **Docker** to boost productivit
 - Install **Redis** (Optional, since it will run inside a container)
 - Install **pytest** (for running automated tests)
 
++---------------------------------------------------------+
+|                      Docker Client                     |
+|  (CLI, GUI, API)                                       |
++--------------------------+-----------------------------+
+|      Docker Daemon       |      REST API Server        |
+|  (dockerd)               |  (Handles Requests)         |
++--------------------------+-----------------------------+
+|    Image Management      |     Container Runtime       |
+|  (Build, Pull, Push)     |  (Run, Stop, Restart)       |
++--------------------------+-----------------------------+
+|         Storage          |       Networking            |
+|  (Volumes, Bind Mounts)  |  (Bridges, Overlay)        |
++---------------------------------------------------------+
+|                Linux Kernel / Windows OS               |
++---------------------------------------------------------+
+
+
 ## 📂 Project Structure
 ```
 .
